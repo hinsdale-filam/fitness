@@ -1,0 +1,12 @@
+section.wrapper.about
+  / .splash
+  /   img src="//placehold.it/1920x1200/ffff00"
+  / .splash-overlay
+  .section-content
+    .inner-content
+      .container
+        .row
+          .col-md-12.text-center
+            h2 about
+
+            p This program began in 2014 and it was great....

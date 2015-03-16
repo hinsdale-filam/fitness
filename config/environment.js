@@ -19,6 +19,13 @@ module.exports = function(environment) {
     }
   };
 
+  ENV.sassOptions = {
+    inputFile: 'app.sass',
+    includePaths: [
+      'bower_components/bootstrap-sass-official/assets/stylesheets'
+    ]
+  }
+
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
