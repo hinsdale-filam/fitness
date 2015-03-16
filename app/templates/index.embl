@@ -1,16 +1,11 @@
 section.wrapper.intro
-  / .splash
-  /   / img src="//placehold.it/1920x1200/ff0000"
-  / .splash-overlay
+  .overlay
   .section-content
-    .inner-content
-      .container
-        .row
-          .col-md-12.text-center.content
-            h1 Filam Fitness for Life
-            h2 2015
+    .container
+      .row
+        .col-md-12.text-center.content
+          h1 filam fitness challenge
+          h2 2015
 
-            p
-              button.btn.btn-lg sign up
-            p
-              button.btn.btn-lg dashboard
+          p
+            button.btn.btn-lg sign up

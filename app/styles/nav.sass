@@ -1,3 +1,9 @@
+$nav-color: transparentize(#444, 0.2)
+$nav-active-color: #444
+
+$navbar-background-color: transparentize(#fff, 0.2)
+$navbar-border-color: #eee
+
 .navbar,
 .navbar-nav,
 .nav > li > a
@@ -7,24 +13,25 @@
   &:hover,
   &:active,
   &.active
-    color: #000
+    color: transparentize($nav-active-color,0.0)
 
   > i.fa
-    margin-top: -18px
+    margin-right: 10px
 
-  color: transparentize(#000, 0.4)
+  color: $nav-color
 
-  font-family: $montserrat
-  font-size: 20px
-  font-weight: $montserrat-bold
+  font-family: $lato
+  font-size: 2em
+  font-weight: $lato-light
 
-  padding: 0 15px
-
-  transition: all 0.3s ease-out
+  padding: 11px 15px
+  margin-top: -4px
+  transition: all 0.3s ease
+  vertical-align: middle
 
 .navbar
-  background: #fff
-  border-top: 1px solid #eee
+  background: $navbar-background-color
+  border-top: 1px solid $navbar-border-color
   min-height: 80px
 
 .navbar-header,
@@ -33,7 +40,7 @@
 
 
 .nav > li > a
-  color: transparentize(#000, 0.4)
+  color: $nav-color
 
   font-family: $montserrat
   font-size: 16px
@@ -43,15 +50,12 @@
   &:active,
   &.active
     background: none
-    color: #000
-
-  &:hover
-    margin-top: -5px
+    color: $nav-active-color
 
   &:active,
   &.active
     background: none
-    border-bottom: 1px solid #eee
+    border-bottom: 1px solid $navbar-border-color
 
 
 

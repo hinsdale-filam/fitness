@@ -1,12 +1,35 @@
 section.wrapper.about
-  / .splash
-  /   img src="//placehold.it/1920x1200/ffff00"
-  / .splash-overlay
+  .overlay
   .section-content
-    .inner-content
-      .container
-        .row
-          .col-md-12.text-center
-            h2 about
+    .container-fluid
+      .row
+        .col-md-3.section-col
+          h1 about
+          p.leading some inspirational text
+      .row
+        .col-md-3.section-col
 
-            p This program began in 2014 and it was great....
+          h3 when
+          p Starts April something
+
+          h3 where
+          p Hinsdale Fil-Am SDA Church
+
+          h3 sessions
+          p
+            | Two hours every Sunday. Includes 30 minute health and nutrition lectures with food demonstrations. Lastly, a one hour cardio session with a particular club: walking, running, zumba/kickboxing, or tennis.
+
+        .col-md-3.section-col
+
+          h3 goals
+          p Lifelong fitness, wellness, and fulfillment! Reshape your body &amp; gain confidence.
+
+          h3 commitment
+          p You promise to stick to one of these per-weekly plans:
+
+          ul.commitment-list
+            li 75 min. of vigorous aerobics
+            li 150 min. of moderate aerobics
+            li 2 days of weight lifting
+
+
