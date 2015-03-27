@@ -4,6 +4,8 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'fitness-progress-app',
     environment: environment,
+    contentSecurityPolicy: { 'connect-src': "'self' wss://*.firebaseio.com" },
+    firebase: null,
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
@@ -32,6 +34,8 @@ module.exports = function(environment) {
     // ENV.APP.LOG_TRANSITIONS = true;
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
+
+    ENV.firebase = 'https://filam-fitness-dev.firebaseio.com/';
   }
 
   if (environment === 'test') {
@@ -47,6 +51,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
+    ENV.firebase = 'https://filam-fitness-prod.firebaseio.com/';
 
   }
 
