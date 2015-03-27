@@ -1,0 +1,27 @@
+section.wrapper.signup
+  .overlay
+  .section-content
+    .container
+      .row
+        .col-md-12.text-center.content
+          h1 sign up
+
+          .row
+            .col-md-4.col-md-offset-4
+              .form-group
+                input placeholder="email address"
+
+              .form-group
+                input placeholder="name"
+
+              .form-inline
+                .form-group
+                  select.form-control
+                .form-group
+                  select.form-control
+                .form-group
+                  select.form-control
+
+              .form-group
+                select.form-control
+

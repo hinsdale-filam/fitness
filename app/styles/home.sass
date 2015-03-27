@@ -55,12 +55,16 @@ section.intro
     margin-bottom: 1em
     letter-spacing: 30px
     text-align: center
+    margin-left: 30px
 
-  button
+  a.btn
     &:hover
       background-color: transparentize(#fff, 0.1)
       border: 1px solid transparent
       color: #444
+
+    &:focus
+      outline: none
 
     background: transparent
     border: 1px solid transparentize(#fff, 0.1)
@@ -69,6 +73,7 @@ section.intro
     font-family: $lato
     font-weight: $lato-light
     letter-spacing: 2px
+    outline: none
     padding: 10px 30px
     transition: background 0.3s ease
 
@@ -84,16 +89,16 @@ section.about
     font-weight: $lato-thin
 
   h1
-    font-size: 5em
+    font-size: 6em
 
   h3
-    font-family: $lato
-    font-weight: $lato-normal
+    font-family: $montserrat
+    font-weight: $montserrat-normal
     font-size: 2em
 
   p, ul > li
     font-family: $lato
-    font-weight: $lato-light
+    font-weight: $lato-thin
     font-size: 15px
 
     &.leading
@@ -106,8 +111,30 @@ section.about
   .overlay
     background-color: transparentize(#000, 0.5)
 
-section.pricing
-
 
 section.schedule
+  $schedule-color: #fff
+  background: url(/assets/images/backgrounds/8.jpg) no-repeat center bottom
+
+  h1, h2, h3
+    color: transparentize($schedule-color, 0.2)
+    font-family: $lato
+    font-weight: $lato-thin
+
+  h1
+    font-size: 6em
+
+  .overlay
+    background-color: transparentize(#000, 0.9)
+
+section.signup
+  background-color: #333
+
+  h1
+    color: transparentize(#fff, 0.2)
+    font-family: $lato
+    font-weight: $lato-thin
+    font-size: 5em
+
+
 

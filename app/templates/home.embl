@@ -1,0 +1,2 @@
+partial "navs/basic-nav"
+= liquid-outlet

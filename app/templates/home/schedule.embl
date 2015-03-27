@@ -1,0 +1,11 @@
+section.wrapper.schedule
+  .overlay
+  .section-content
+    .container-fluid
+      .row
+        .col-md-3.section-col
+          h1 schedule
+          p.leading some inspirational text
+      .row
+        .col-md-3
+            p We have some great options for classes
